@@ -9,8 +9,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.notes.R
-import com.example.notes.presintation.feature.extention.hideKeyboard
-import com.example.notes.presintation.feature.extention.showKeyboard
+import com.example.notes.presintation.extention.hideKeyboard
+import com.example.notes.presintation.extention.showKeyboard
 import com.example.notes.presintation.feature.notes.viewmodel.NotesViewModel
 import cz.eman.kaal.presentation.fragment.BaseFragment
 import kotlinx.android.synthetic.main.fragment_add_note.*

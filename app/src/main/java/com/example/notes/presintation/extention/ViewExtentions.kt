@@ -1,4 +1,4 @@
-package com.example.notes.presintation.feature.extention
+package com.example.notes.presintation.extention
 
 import android.content.Context
 import android.text.InputType
