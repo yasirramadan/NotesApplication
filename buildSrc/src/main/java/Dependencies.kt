@@ -6,10 +6,10 @@ private object Versions {
     const val supportLib = "1.0.2"
     const val archLifecycle = "2.0.1"
     const val constraintLayout = "2.0.0-beta2"
-    const val androidKtx = "1.0.1"
+    const val androidKtx = "1.1.0"
     const val pagingVersion = "2.1.0"
 
-    const val kotlin = "1.3.41"
+    const val kotlin = "1.3.61"
     const val coroutinesCore = "1.3.0"
     const val coroutinesAndroid = "1.1.1"
     const val coroutinesTest = "1.3.3"
@@ -19,7 +19,7 @@ private object Versions {
 
     const val timber = "4.7.1"
     const val timberKtx = "0.1.0"
-    const val koin = "2.0.0"
+    const val koin = "2.0.1"
 
     const val junit = "4.12"
     const val kotlinTest = "3.3.0"

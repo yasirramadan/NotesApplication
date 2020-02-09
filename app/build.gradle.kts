@@ -46,24 +46,14 @@ dependencies {
     implementation(Dependencies.Kotlin.coroutinesCore)
 
     // Google Android Libraries
-    implementation(Dependencies.Libs.appCompat)
     implementation(Dependencies.Libs.androidKtx)
     implementation(Dependencies.Libs.navigationFragment)
     implementation(Dependencies.Libs.navigationUi)
-    implementation(Dependencies.Libs.paging)
-    implementation(Dependencies.Libs.lifecycleRuntime)
 
     // Third Party - others
     implementation(Dependencies.Libs.koinAndroid)
     implementation(Dependencies.Libs.koinViewModel)
-    implementation(Dependencies.Libs.koinScope)
     implementation(Dependencies.Libs.timber)
-
-    // Glide
-    implementation(Dependencies.Libs.glide)
-    annotationProcessor(Dependencies.Libs.glideCompiler)
-
-    // Floating action library
     implementation(Dependencies.Libs.floatingActionButton)
 
     // Tests

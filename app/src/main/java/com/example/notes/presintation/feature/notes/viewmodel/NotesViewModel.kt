@@ -13,6 +13,7 @@ import com.example.notes.presintation.feature.notes.vo.NoteVO
 import cz.eman.kaal.domain.result.Result
 import cz.eman.kaal.presentation.viewmodel.BaseViewModel
 import kotlinx.coroutines.launch
+import timber.log.Timber
 
 
 class NotesViewModel(
@@ -55,6 +56,8 @@ class NotesViewModel(
 
                 is Result.Error -> {
                     viewState.value = NotesViewState.Error(result.error.message, noteList)
+
+                    Timber.e(result.error.throwable)
                 }
             }
         }
@@ -75,6 +78,8 @@ class NotesViewModel(
 
                 is Result.Error -> {
                     viewState.value = NotesViewState.Error(result.error.message, noteList)
+
+                    Timber.e(result.error.throwable)
                 }
             }
         }
@@ -101,6 +106,8 @@ class NotesViewModel(
 
                 is Result.Error -> {
                     viewState.value = NotesViewState.Error(result.error.message, noteList)
+
+                    Timber.e(result.error.throwable)
                 }
             }
         }
@@ -123,6 +130,8 @@ class NotesViewModel(
 
                     is Result.Error -> {
                         viewState.value = NotesViewState.Error(result.error.message, noteList)
+
+                        Timber.e(result.error.throwable)
                     }
                 }
             }
