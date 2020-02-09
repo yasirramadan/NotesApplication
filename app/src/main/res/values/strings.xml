@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Notes</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Notes -->
+    <string name="notes_fragment_title">Notes</string>
+    <string name="note_added">Note added</string>
+    <string name="note_updated">Note update</string>
+    <string name="note_deleted">Note deleted</string>
+
+    <!-- Add Note -->
+    <string name="add_note_fragment_title">Add Note</string>
+    <string name="btn_add_note">Add Note</string>
+
+    <!-- Note Detail -->
+    <string name="note_detail_fragment_title">Note Detail</string>
+    <string name="save_note">Save note</string>
+</resources>

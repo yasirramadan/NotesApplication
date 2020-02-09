@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/notesFragment">
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.example.notes.presintation.feature.notes.list.NotesFragment"
+        android:label="@string/notes_fragment_title">
+        <action
+            android:id="@+id/action_notesFragment_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
+        <action
+            android:id="@+id/action_notesFragment_to_noteDetailFragment"
+            app:destination="@id/noteDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="com.example.notes.presintation.feature.notes.add.AddNoteFragment"
+        android:label="@string/add_note_fragment_title">
+        <action
+            android:id="@+id/action_addNoteFragment_to_notesFragment"
+            app:destination="@id/notesFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/notesFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/noteDetailFragment"
+        android:name="com.example.notes.presintation.feature.notes.detail.NoteDetailFragment"
+        android:label="@string/note_detail_fragment_title">
+        <action
+            android:id="@+id/action_noteDetailFragment_to_notesFragment"
+            app:destination="@id/notesFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/notesFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

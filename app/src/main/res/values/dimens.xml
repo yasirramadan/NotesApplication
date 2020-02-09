@@ -1,0 +1,19 @@
+<resources>
+    <!-- Font size -->
+    <dimen name="fontSizeTitle1">20sp</dimen>
+    <dimen name="fontSizeHighlight1">16sp</dimen>
+    <dimen name="fontSizeBody">14sp</dimen>
+
+    <!-- Screen edge -->
+    <dimen name="screenEdgeSpaceRight">16dp</dimen>
+    <dimen name="screenEdgeSpaceLeft">16dp</dimen>
+    <dimen name="screenEdgeSpaceBottom">16dp</dimen>
+    <dimen name="spaceBetweenContent">8dp</dimen>
+    <dimen name="spaceBetweenContentLarge">16dp</dimen>
+
+    <!-- Lists -->
+    <dimen name="listItemSpaceTop">16dp</dimen>
+    <dimen name="listItemSpaceBottom">16dp</dimen>
+    <dimen name="dividerSize">1dp</dimen>
+
+</resources>
